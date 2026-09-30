@@ -1,8 +1,8 @@
 # Surface Form or Shared Belief?
 
-This repository contains the code for *Surface Form or Shared Belief? A
-Behavioral Test of Whether LLM Judge Agreement Is Diversifiable*. This paper
-was accepted at the NewInML Workshop at NeurIPS 2026.
+This repository contains the code for the paper **Surface Form or Shared Belief? A
+Behavioral Test of Whether LLM Judge Agreement Is Diversifiable**. This work
+was accepted at the NewInML Workshop at NeurIPS 2026!
 
 ## Summary
 
@@ -47,7 +47,7 @@ ChaosNLI and 2.05 on RewardBench. Giving every judge a different rewrite changes
 effective panel size by only +0.12 and -0.02, respectively. Neither result
 reaches the preregistered target of +0.5.
 
-A shared rewrite can make agreement stronger rather than weaker. On ChaosNLI,
+We find that a shared rewrite can make agreement stronger as opposed to weaker. On ChaosNLI,
 it lowers effective panel size by 0.22 and reduces majority accuracy from 0.728
 to 0.694. Shared failures are also stable: 26 of 47 unanimous ChaosNLI errors
 remain unanimous after the judges receive different rewrites, and all 7
@@ -56,8 +56,7 @@ unanimous RewardBench errors persist.
 ![Change in effective panel size under the tested interventions](assets/delta_neff.png)
 
 The figure shows the change in effective panel size relative to the original
-input. The dotted line marks the preregistered +0.5 target. None of the
-per-judge input interventions reaches it.
+input.
 
 ## Run the code
 
