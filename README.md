@@ -53,7 +53,9 @@ to 0.694. Shared failures are also stable: 26 of 47 unanimous ChaosNLI errors
 remain unanimous after the judges receive different rewrites, and all 7
 unanimous RewardBench errors persist.
 
-<img src="assets/delta_neff.png" alt="Change in effective panel size under the tested interventions">
+<p align="center">
+  <img src="assets/delta_neff.png" alt="Change in effective panel size under the tested interventions" width="381">
+</p>
 
 The figure shows the change in effective panel size relative to the original
 input. The dotted line marks the preregistered +0.5 target. None of the
